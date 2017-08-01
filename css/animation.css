@@ -1,0 +1,42 @@
+.team img{
+    transition: all 0.5s ease-in;
+     -webkit-transition: all 0.5s ease-in;
+    -moz-transition: all 0.5s ease-in;
+     -o-transition: all 0.5s ease-in;
+     -ms-transition: all 0.5s ease-in;
+}
+
+.blog img{
+    transition: all 0.5s ease-in;
+     -webkit-transition: all 0.5s ease-in;
+    -moz-transition: all 0.5s ease-in;
+     -o-transition: all 0.5s ease-in;
+     -ms-transition: all 0.5s ease-in;
+}
+
+.team li .inner-content, .blog .col-md-4{
+    
+    overflow: hidden;
+}
+
+.team .inner-content:hover img{
+    
+    
+    transform: scale(1.5,1.5);
+     -webkit-transform: scale(1.5,1.5);
+    -moz-transform: scale(1.5,1.5);
+     -o-transform: scale(1.5,1.5);
+     -ms-transform: scale(1.5,1.5);
+    
+}
+
+.blog .col-md-4:hover img{
+    
+    
+    transform: scale(1.1,1.1);
+     -webkit-transform: scale(1.1,1.1);
+    -moz-transform: scale(1.1,1.1);
+     -o-transform: scale(1.1,1.1);
+     -ms-transform: scale(1.1,1.1);
+    
+}

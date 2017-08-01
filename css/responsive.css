@@ -1,0 +1,325 @@
+.slicknav_menu {
+	display:none;
+}
+
+@media screen and (max-width: 992px) {
+	/* #menu is the original menu */
+  
+
+       .slider{
+        
+        margin-top: 90px;
+    }
+
+    header{
+          background-color: #000;
+         margin-top: -90px;
+    }
+    
+    header a.logo ul li{
+    margin-left: 25px;
+}
+    
+	#menu {
+		display:none;
+	}
+   
+	.slicknav_menu {
+		display:inline-block;
+        position: fixed;
+        background-color: rgba(0,0,0,0);
+        z-index: 1000;
+        right: 0px;
+        width: 100%;
+        padding-left: 0px;
+        padding-right: 0px;
+        margin-top: -90px;
+        line-height: 90px;
+        
+       
+	}
+    
+    	.slicknav_menu a{
+        
+         margin-bottom: 30px !important;
+        
+    }
+    
+    .slicknav_btn {
+        
+        margin: 25px 35px 0 0;
+       background-color: transparent;
+        
+    }
+    
+    .slicknav_nav{
+        
+        width: 100%;
+        background-color: rgba(12,12,13,1);
+        
+    }
+    
+   
+    
+    .slicknav_nav li{
+        
+        padding: 0;
+        margin: 0;
+        height: 3em;
+        line-height: 3em;
+        width: 100%;
+        border-bottom: 1px solid #111;
+        text-align: left;
+        padding-left: 30px;
+        
+    }
+    
+    .slicknav_nav li a{
+        margin: 0;
+        padding: 0;
+   
+    }
+    .slicknav_nav li:hover{
+        
+         background-color: #4ca9b4;
+    }
+    
+    .slicknav_nav li a:hover{
+        
+        background-color: transparent;
+        color: #fff;
+         margin: 0;
+        padding: 0;
+        border-radius: 0px;
+    }
+    
+    .slicknav_icon-bar{
+        background-color: #4ca9b4 !important;
+        line-height: 25px;
+        font-size: 25px;
+    }
+    
+    .slider, .slider ul.slider-carousel, .slider ul.slider-carousel li{
+    height: 500px;
+}
+
+
+
+.slider ul.slider-carousel li h1{
+    margin-bottom: 10px;
+    margin-top: 100px;
+    font-size: 50px;
+
+}
+    
+    .slider ul.slider-carousel li p{
+    margin-bottom: 30px;
+
+}
+   
+    
+    .portfolio-carousel li{
+        
+      margin-right: 0px;
+        margin-left: 0px;
+    }
+    
+    .portfolio-carousel h3{
+        
+        font-size: 14px;
+    }
+    
+    .portfolio .inner-content{
+        
+        width:200px;
+        height:180px;;
+    }
+    
+    .portfolio .portfolio-nav li{
+        
+        margin-right: 0px;
+    }
+    
+    
+    
+      
+    .team-carousel h3{
+        
+        font-size: 14px;
+    }
+    
+    .team .inner-content{
+        
+        width:200px;
+        height:180px;;
+    }
+    
+    .team .team-nav li{
+        
+        margin-right: 0px;
+    }
+    
+     .team-carousel li{
+        
+      margin-right: 0px;
+        margin-left: 0px;
+    }
+    .team-carousel p.description{
+        
+        display: none;
+    }
+    
+    .blog{text-align: center;}
+    .blog img{margin: 0 auto;}
+    
+    form.contact-form{
+    
+    width: 80%;
+}
+    
+    footer{
+        text-align: center;
+    }
+    
+   
+.about-img{
+    
+    margin-bottom: 10px;
+}
+    
+    
+    .services-header{
+    
+    
+    margin-bottom:20px;
+    text-align: center;
+}
+}
+
+
+@media screen and (max-width: 800px) {
+    
+    
+
+    
+        .slider ul.slider-carousel li p{
+    margin-bottom: 30px;
+    font-size: 18px;
+}
+
+    
+    .portfolio-carousel h3{
+        
+        font-size: 12px;
+    }
+    
+    .portfolio .inner-content{
+        
+        width:180px;
+        height:150px;;
+    }
+    
+    .portfolio .portfolio-nav li{
+        
+        margin-right: 0px;
+    }
+   .portfolio .portfolio-nav li p{
+    font-size: 12px;
+    
+    }
+      .portfolio .inner-content .overlay-content i{
+        
+        font-size: 40px;
+    }
+    
+      
+    .team-carousel h3{
+        
+        font-size: 12px;
+    }
+    
+    .team .inner-content{
+        
+        width:180px;
+        height:150px;;
+    }
+    
+   .team li p{
+    font-size: 12px;
+    
+    }
+    
+    .team-carousel p.description{
+        
+        display: none;
+    }
+    
+    .testimonial-carousel li{
+    
+    margin: 0 100px;
+}
+    
+  
+}
+@media screen and (max-width: 550px) {
+    
+       .slider, .slider ul.slider-carousel, .slider ul.slider-carousel li{
+    height: 480px;
+}
+
+
+
+.slider ul.slider-carousel li h1{
+     margin-top: 25%;
+    font-size: 45px;
+
+}
+        .slider ul.slider-carousel li p{
+    margin-bottom: 30px;
+}
+    
+       .testimonial-carousel li{
+    
+    margin: 0 50px;
+}
+    
+}
+
+@media screen and (max-width: 420px) {
+    
+    .slider ul li a{
+        
+        padding: 0;
+        width: 70%;
+        text-align: center;
+        margin-top: 5px;
+    }
+    
+     .slider ul.slider-carousel li a{
+padding: 5px 25px;
+    }
+    
+        .slider ul.slider-carousel li h1{
+ margin-bottom: 10px;
+    font-size: 35px;
+
+    }
+    
+    
+     .slider ul.slider-carousel li p{
+    margin-bottom: 20px;
+    font-size: 15px;
+}
+    
+    .blog h3 a:hover{
+    
+    font-size: 22px;
+    }
+    
+    .blog h3 a{
+    
+    font-size: 20px;
+    
+    
+}
+
